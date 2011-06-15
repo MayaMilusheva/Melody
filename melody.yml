@@ -1,0 +1,26 @@
+notes:
+  - EatGhost.wav
+  - Sake.wav
+bubbles:
+  - note_index: 0
+    pos: [100, 100]
+    radius: 50
+    duration: 500
+  - note_index: 1
+    pos: [200, 100]
+    radius: 50
+    duration: 500
+
+melody:
+  tempo : 1
+  pos: [400, 400]
+  radius: 50
+  notes:
+    - note: 0
+      duration: 500
+    - note: 0
+      duration: 500
+    - note: 1
+      duration: 500
+    - note: 1
+      duration: 500
