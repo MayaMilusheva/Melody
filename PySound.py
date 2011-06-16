@@ -30,11 +30,12 @@ def handle_events():
 				obj.onClick(ev.pos)
 
 def init_objects(data):
-	for filename in data['notes']:
-		Note(filename)
+	for note_def in data['notes']:
+		Note(note_def)
 	for bubble_def in data['bubbles']:
 		Bubble(bubble_def)
 	Melody(data['melody'])
+	Track(data['track'])
 
 data = syck.load(open('melody.yml'))
 init_objects(data)
